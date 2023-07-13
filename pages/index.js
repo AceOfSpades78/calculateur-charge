@@ -45,6 +45,7 @@ export default function Index({ posts, globalData }) {
             </li>
           ))}
         </ul>
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTuLzKZUTDAdITYJzitJSWRE_TuypxZMobFLfZquMliNZDnmAezF5RUaxQHPpF4A_mBlCN24RqeQTOT/pubhtml?gid=321919635&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
       </main>
       <Footer copyrightText={globalData.footerText} />
       <GradientBackground
