@@ -15,9 +15,8 @@ export default function Index({ posts, globalData }) {
       <Header name={globalData.name} />
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
-          {globalData.blogTitle}
-        </h1>
-        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTuLzKZUTDAdITYJzitJSWRE_TuypxZMobFLfZquMliNZDnmAezF5RUaxQHPpF4A_mBlCN24RqeQTOT/pubhtml?gid=321919635&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+          GB CALCULATEUR CHARGES</h1>
+        <iframe className="iframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTuLzKZUTDAdITYJzitJSWRE_TuypxZMobFLfZquMliNZDnmAezF5RUaxQHPpF4A_mBlCN24RqeQTOT/pubhtml?gid=321919635&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
     
       </main>
       <Footer copyrightText={globalData.footerText} />
