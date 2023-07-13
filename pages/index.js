@@ -12,7 +12,7 @@ export default function Index({ posts, globalData }) {
   return (
     <Layout>
       <SEO title="🏋️‍♂️ Calculateur de Charges" description={globalData.blogTitle} />
-  
+      <Header name={globalData.name} />
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
           GB CALCULATEUR CHARGES</h1>
